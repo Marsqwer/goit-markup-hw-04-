@@ -438,32 +438,30 @@ color: var(--white-color);
             height: 92px;
             
         
-            border: 1px solid #AFB1B8;
+        
             border-radius: 4px;
         margin-right: 30px;
     }
 
 .compania-soc-link{
     display: flex;
-    width: 170;
-    height: 92;
-    
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
     border-radius: 4px;
     fill: #757575;
     justify-content: center;
     align-items: center;
 }
 
-.compania-soc-link:hover .compania-soc-icon{
+.compania-soc-link:hover {
     background-color:#188CE8 ;
-    color: white;
+    fill: white;
 }
 
 .compania-soc-icon{
-margin-top: 0px;
-margin-bottom: 0px;
-    
-}
+
+    }
 /* Страница Портфолио */
 
 /* кнопки-фильтры портфолио */
