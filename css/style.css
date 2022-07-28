@@ -161,6 +161,13 @@ button {
     display: flex;
     list-style: none;
     margin-left: auto;
+
+}
+
+.contact-soc-icon{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
 }
 
 .menu-nav-cont .item+.item {
@@ -174,9 +181,13 @@ button {
     letter-spacing: 0.02em;
     display: inline-block;
     padding-top: 32px;
-    padding-bottom: 32px;
+        padding-bottom: 32px;
 }
-
+.contact-soc-icon-top{
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
 .nav-cont:hover,
 .nav-cont:focus {
     color: var(--accent-color);
@@ -185,9 +196,13 @@ button {
 /* HERO */
 
 .hero {
-    background: var(--hero-back-color);
+   
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: url(../img/compania.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -355,7 +370,8 @@ button {
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--h-text-color);
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 8px;
 }
 
 .cart-text {
@@ -363,9 +379,91 @@ button {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    margin-bottom: 30px;
     
 }
 
+.studia-soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.studia-soc-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.studia-soc-icon{
+    fill: var(--text-color);
+}
+
+.studia-soc-link:hover
+ {
+background-color: #2196F3;
+color: var(--white-color);
+}
+
+.compania-title{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+       padding-bottom: 50px;
+        color: #212121;
+}
+
+.compania{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+    .compania-item{
+        display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+            
+            width: 170px;
+            height: 92px;
+            
+        
+            border: 1px solid #AFB1B8;
+            border-radius: 4px;
+        margin-right: 30px;
+    }
+
+.compania-soc-link{
+    display: flex;
+    width: 170;
+    height: 92;
+    
+    border-radius: 4px;
+    fill: #757575;
+    justify-content: center;
+    align-items: center;
+}
+
+.compania-soc-link:hover .compania-soc-icon{
+    background-color:#188CE8 ;
+    color: white;
+}
+
+.compania-soc-icon{
+margin-top: 0px;
+margin-bottom: 0px;
+    
+}
 /* Страница Портфолио */
 
 /* кнопки-фильтры портфолио */
@@ -449,12 +547,15 @@ button {
     letter-spacing: 0.03em;
 }
 
+
+
 /* FOOTER */
 
 .footer-section {
     background-color: var(--hero-back-color);
     padding-top: 60px;
         padding-bottom: 60px;
+        
 }
 
 .footer-content {
@@ -464,6 +565,9 @@ button {
 .logo.foot {
     display: block;
     margin-bottom: 20px;
+}
+.item-foot{
+    margin-right: 0%;
 }
 
 .contact-footer {
@@ -505,5 +609,36 @@ button {
 .footer-cont:hover,
 .footer-cont:focus {
     color: var(--accent-color);
+}
+
+.fotter-lop{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        padding-right: 70px;
+}
+
+.blog-soc{
+    display: flex;
+    justify-content: center;
+   margin-top: 0%; 
+    
+}
+
+.studia-soc-item{
+  
+}
+
+.blog-soc-item{
+    margin-right: 10px;
 }
 
