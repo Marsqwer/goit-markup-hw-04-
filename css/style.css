@@ -648,9 +648,14 @@ fill: #FFFFFF;
 }
 
 .footer-content{
-display: flex;
-align-items: baseline;
-margin-left: 70px;
+ 
+        display: flex;
+        align-items: baseline;
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    
 }
 
 .spisok{
@@ -677,4 +682,34 @@ margin-left: 70px;
     display: flex;
     list-style: none;
     gap: 10px;
+}
+
+.stud-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #FFFFFF ;
+}
+
+
+
+.stud-soc-link:hover {
+
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
+
+.stud-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #AFB1B8;
 }
