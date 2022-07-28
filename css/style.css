@@ -163,7 +163,9 @@ button {
     margin-left: auto;
 
 }
-
+.contact-soc-link{
+    fill: #AFB1B8;
+}
 .contact-soc-icon{
     width: 16px;
     height: 12px;
@@ -398,7 +400,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    fill: #AFB1B8;
 }
 
 .studia-soc-icon{
@@ -449,7 +451,7 @@ color: var(--white-color);
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    fill: #757575;
+    fill: #AFB1B8;
     justify-content: center;
     align-items: center;
 }
@@ -457,6 +459,7 @@ color: var(--white-color);
 .compania-soc-link:hover {
     border-color:#188CE8 ;
     fill: #188CE8;
+    
 }
 
 .compania-soc-icon{
