@@ -684,16 +684,7 @@ margin-left: 70px;
     gap: 10px;
 }
 
-.stud-soc-link {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--white-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: #FFFFFF ;
-}
+
 
 
 
