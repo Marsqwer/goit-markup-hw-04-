@@ -647,6 +647,23 @@ fill: #FFFFFF;
     margin-right: 10px;
 }
 
+.spisok{
+   
+}
+
+
+.golova{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-left: 70px;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+}
 .flex{
     display: flex;
 
@@ -655,4 +672,5 @@ fill: #FFFFFF;
     margin-left: 70px;
     display: flex;
     list-style: none;
+    gap: 10px;
 }
