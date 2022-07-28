@@ -647,8 +647,10 @@ fill: #FFFFFF;
     margin-right: 10px;
 }
 
-.spisok{
-   
+.footer-content{
+display: flex;
+align-items: baseline;
+margin-left: 70px;
 }
 
 
@@ -669,7 +671,7 @@ fill: #FFFFFF;
 
 }
 .copy-soc{
-    margin-left: 70px;
+    
     display: flex;
     list-style: none;
     gap: 10px;
