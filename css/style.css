@@ -455,8 +455,8 @@ color: var(--white-color);
 }
 
 .compania-soc-link:hover {
-    background-color:#188CE8 ;
-    fill: white;
+    border-color:#188CE8 ;
+    fill: #188CE8;
 }
 
 .compania-soc-icon{
