@@ -653,7 +653,9 @@ align-items: baseline;
 margin-left: 70px;
 }
 
+.spisok{
 
+}
 .golova{
     font-family: 'Roboto';
         font-style: normal;
@@ -662,7 +664,7 @@ margin-left: 70px;
         line-height: 16px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-left: 70px;
+       
         color: #FFFFFF;
         padding-bottom: 20px;
 }
