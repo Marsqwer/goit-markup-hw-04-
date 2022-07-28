@@ -407,9 +407,7 @@ button {
     fill: #AFB1B8;
 }
 
-.studia-soc-icon{
-    
-}
+
 
 .studia-soc-link:hover  {
  
@@ -433,6 +431,8 @@ fill: #FFFFFF;
     list-style: none;
     display: flex;
    justify-content: center;
+   gap: 30px
+   ;
 }
 
     .compania-item{
@@ -446,7 +446,7 @@ fill: #FFFFFF;
         
         
             border-radius: 4px;
-        margin-right: 30px;
+        
     }
 
 .compania-soc-link{
