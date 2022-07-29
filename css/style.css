@@ -85,6 +85,7 @@ button {
 .header {
     border-bottom: 1px solid #ececec;
     background-color: var(--white-color);
+    align-items: center;
 }
 
 .conteiner {
@@ -118,6 +119,7 @@ button {
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    
 }
 
 .menu-nav {
@@ -165,9 +167,37 @@ button {
 }
 .contact-soc-link{
     fill: #AFB1B8;
+    margin-top: 30px;
 }
-
-.contact-soc-link
+.telefon{
+    display: flex;
+    margin-left: auto;
+    
+}
+.item-fill{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+   
+   
+    
+}
+.contact-soc-link:hover {
+    color: #188CE8;
+}
+.contact-soc-link{
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+}
 
 .contact-soc-icon{
     width: 16px;
@@ -177,7 +207,9 @@ button {
 }
 
 .menu-nav-cont .item+.item {
+    list-style: none;
     margin-left: 50px;
+   
 }
 
 .nav-cont {
@@ -588,6 +620,7 @@ fill: #FFFFFF;
 
 
 /* FOOTER */
+
 
 .footer-section {
     background-color: var(--hero-back-color);
