@@ -145,7 +145,14 @@ button {
     padding-bottom: 32px;
     color: var(--h-text-color);
 }
+.nav-link:hover
 
+{
+    color: #2196F3;
+}
+.nav-link:focus{
+    color: #2196F3;
+}
 .nav-menu .nav-link {
     color: var(--h-text-color);
     list-style: none;
@@ -156,19 +163,25 @@ button {
 }
 
 .menu-nav .nav-link.act {
-    color: var(--accent-color);
+
 }
 
 .menu-nav-cont {
     display: flex;
     list-style: none;
     margin-left: auto;
+    align-items: baseline;
 
 }
 .contact-soc-link{
     fill: #AFB1B8;
     margin-top: 30px;
 }
+
+.contact-soc-link:hover .contact-soc-icon{
+    color: #2196F3;
+}
+
 .telefon{
     display: flex;
     margin-left: auto;
@@ -186,6 +199,11 @@ button {
 .contact-soc-link:hover {
     color: #188CE8;
 }
+
+.contact-soc-link:focus{
+    color: #188CE8;
+}
+
 .contact-soc-link{
     text-decoration: none;
     align-items: center;
@@ -241,6 +259,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+   
 }
 
 
@@ -307,6 +326,7 @@ padding-left: 30px;
         border-radius: 1px;
         justify-content: center;
             align-items: center;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
@@ -427,6 +447,8 @@ padding-left: 30px;
     border: 1px solid;
     border-color: #eeeeee;
     border-radius: 2%;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -441,7 +463,7 @@ padding-left: 30px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--h-text-color);
-    margin-top: 30px;
+    
     margin-bottom: 8px;
 }
 
@@ -450,7 +472,7 @@ padding-left: 30px;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     
 }
 
@@ -470,14 +492,18 @@ padding-left: 30px;
     align-items: center;
     justify-content: center;
     fill: #AFB1B8;
-}
-
+background: rgba(255, 255, 255, 0.1); }
 
 
 .studia-soc-link:hover  {
  
 background-color: #2196F3;
 fill: #FFFFFF;
+}
+
+.studia-soc-link:focus{
+    background-color: #2196F3;
+        fill: #FFFFFF;
 }
 
 .compania-title{
@@ -509,7 +535,7 @@ fill: #FFFFFF;
             height: 92px;
             
         
-        
+        background: rgba(255, 255, 255, 0.1);
             border-radius: 4px;
         gap: 30px;
     }
@@ -530,8 +556,12 @@ fill: #FFFFFF;
     fill: #188CE8;
     
 }
-
+.compania-soc-link:focus{
+    border-color: #188CE8;
+        fill: #188CE8;
+}
 .compania-soc-icon{
+
 
     }
 /* Страница Портфолио */
@@ -581,8 +611,16 @@ fill: #FFFFFF;
     flex-basis: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
+    
+   
+    
 }
-
+.portfolio-cart:active{
+    box-shadow: unset;
+    transform: translate(10px 10px);
+    background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-cart:nth-last-child(3n+1) {
     margin-right: 0;
 }
@@ -706,9 +744,11 @@ fill: #FFFFFF;
 }
 
 .studia-soc-item{
-  
+background: rgba(255, 255, 255, 0.1);
 }
-
+.stud-soc-link{
+    background: rgba(255, 255, 255, 0.1);
+}
 .blog-soc-item{
     margin-right: 10px;
 }
@@ -759,7 +799,10 @@ margin-left: 70px;
     background-color: #2196F3;
     fill: #FFFFFF;
 }
-
+.stud-soc-link:focus{
+    background-color: #2196F3;
+        fill: #FFFFFF;
+}
 .stud-soc-link {
     width: 44px;
     height: 44px;
