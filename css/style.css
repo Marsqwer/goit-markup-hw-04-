@@ -341,7 +341,10 @@ padding-left: 30px;
             
 }
 
-
+.compan-soc-icon{
+    width: 70px;
+        height: 70px;
+}
 
 .compan-soc-link:hover {
     border-color: #188CE8; /*цвет рамки*/
