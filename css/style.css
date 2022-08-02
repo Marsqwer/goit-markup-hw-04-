@@ -640,9 +640,36 @@ fill: #FFFFFF;
     margin-right: 30px;
     margin-bottom: 30px;
     
-   
-    
 }
+.product-actions{
+    position: absolute;
+    width: 370px;
+    height:294px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background: rgba(33, 150, 243, 0.9);
+}
+.product-actions:hover{
+    opacity: 1;
+}
+.product-thumb{
+    margin-left: 24px;
+    position: absolute;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 156% */
+    
+        letter-spacing: 0.03em;
+        
+        color: #FFFFFF;
+}
+
+
 .portfolio-cart:hover{
     box-shadow: unset;
     transform: translate(10px 10px);
