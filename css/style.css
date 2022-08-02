@@ -398,7 +398,31 @@ padding-left: 30px;
 
 
 /* Чемы мы занимаемся */
+.box {
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    
+}
+.item{
+    position: relative;
+}
+.name {
+    margin-top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
+    
+    color: #FFFFFF;
+}
 .work {
     padding-top: 0;
 }
