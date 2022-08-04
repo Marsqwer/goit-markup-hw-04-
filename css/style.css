@@ -141,15 +141,18 @@ button {
 }
 
 .menu-nav .nav-link {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--h-text-color);
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover
 
 {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #2196F3;
 }
 .menu-nav .nav-link.act::after{
@@ -161,6 +164,8 @@ background: #2196F3;
     border-radius: 2px;
  position: absolute;
  bottom: -1px;
+ width: 100%;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:focus{
     color: #2196F3;
@@ -171,7 +176,7 @@ background: #2196F3;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-nav .nav-link.act {
@@ -333,6 +338,11 @@ color: #2196F3;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+.bakdrop.is-hidden.modal{
+    transform: translate(-50%, -50%) scale(0.9);
+}
+
 .bakdrop.is-hidden{
     visibility: hidden;
     opacity: 0;
@@ -361,6 +371,8 @@ border-radius: 50%;
         border: 2px solid rgba(0, 0, 0, 0.1);
     margin-left: 490px;
     margin-top: 8px;
+
+
 }
 
 .krest{
@@ -588,14 +600,16 @@ padding-left: 30px;
     align-items: center;
     justify-content: center;
     fill: #AFB1B8;
-background: rgba(255, 255, 255, 0.1); }
+background: rgba(255, 255, 255, 0.1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .studia-soc-icon{
     width: 20px;
     height: 20px;
 }
 .studia-soc-link:hover  {
- 
+
 background-color: #2196F3;
 fill: #FFFFFF;
 }
@@ -646,7 +660,7 @@ fill: #FFFFFF;
 
 
 .studia-soc-item{
-
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .compania-soc-link{
     display: flex;
@@ -657,6 +671,7 @@ fill: #FFFFFF;
     fill: #AFB1B8;
     justify-content: center;
     align-items: center;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .compania-soc-link:hover {
@@ -839,6 +854,7 @@ fill: #FFFFFF;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--white-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address:hover,
@@ -954,4 +970,5 @@ margin-left: 70px;
     align-items: center;
     justify-content: center;
     fill: #FFFFFF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
