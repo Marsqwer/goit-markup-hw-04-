@@ -432,12 +432,14 @@ font-family: 'Roboto';
 }
 .form-field input{
     margin: 0;
-    padding:10px;
+    padding: 11px 12px 11px 42px;
 border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
-.form-field input::placeholder{
-color: black;
+textarea::placeholder{
+    margin-top: 12px;
+    margin-left: 16px;
+color: #2196F3;
 }
 
 .group{
@@ -501,18 +503,24 @@ color: black;
     color: #2196F3;
 }
 .form-svg{
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    margin: 0;
-    padding: 0;
     
+ position: absolute;
+  width: 18px;
+ height: 18px;
+ left: 12px;
+ bottom: 11px;
+fill: var(--black-color);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input{
+.form-label{
     position: relative;
 }
-
-
+.form-input{
+    color: #2196F3;
+}
+.form-input:hover .from-svg{
+    color: #2196F3;
+}
 /* Особенности компании */
 .conteiner-pol{
     display: flex;/*вид флекс-контейнера*/
